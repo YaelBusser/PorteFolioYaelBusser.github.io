@@ -30,17 +30,20 @@ body{
     right: -500px;
     top: 0;
     transition: all 0.3s ease-out;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.75);
 }
 .menu ul{   
     list-style-type: none;
-    background-color: rgba(0,0,0,0.9);
     height: 100vh;
 }
 .menu ul li{
     padding: 60px;
+    margin-left: -40px;
     font-family: font1;
     font-size: 50px;
     color: white;
+    transition: all 0.3s ease-out;
 }
 .titre{
     font-size: 100px;
